@@ -13,3 +13,16 @@ div {
 p {
     text-align: center;
 }
+
+.pointCurrentTotal {
+    font-size: 50px;
+    font-family: 'Courier New', monospace;
+    font-weight: bold;
+}
+
+
+
+.clickThisBtn {
+    padding: 20px;
+    border-radius: 100px;
+}
