@@ -13,7 +13,7 @@ clickThisBtn.addEventListener("click", () => {
     if (i <=15) {funnyText.textContent = "what the flip... how could u have done this to me....."}
     else {funnyText.textContent = "are u happy with yourself...";}})
 
-shopColorChangeBtn.addEventListener("click", () => {if (i == 10) {i = (i - 10);
+shopColorChangeBtn.addEventListener("click", () => {if (i >= 10) {i = (i - 10);
     pointCurrentTotal.textContent = `Current Total: ${i}`;}
     clickThisBtn.style.cssText = "color: blue; background: cyan;";
     shopColorChangeBtn.remove()}
